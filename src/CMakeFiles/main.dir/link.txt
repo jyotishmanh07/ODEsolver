@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/solver.cpp.o CMakeFiles/main.dir/explicit_solver.cpp.o CMakeFiles/main.dir/implicit_solver.cpp.o -o main 
