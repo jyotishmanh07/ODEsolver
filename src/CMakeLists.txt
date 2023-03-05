@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.8)
+project(solver VERSION 0.1.0 LANGUAGES CXX)
+add_compile_options(-std=c++17)
+add_executable(main main.cpp solver.cpp explicit_solver.cpp implicit_solver.cpp)
+set (CMAKE_CXX_FLAGS "-O3")
